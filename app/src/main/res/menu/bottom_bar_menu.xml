@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentEmpty"
+        android:icon="@drawable/home"
+        android:title="Ana Sayfa" />
+    <item
+        android:id="@+id/categoriesPageFragment"
+        android:icon="@drawable/categories"
+        android:title="Kategoriler" />
+    <item
+        android:id="@+id/shopCartFragment2"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Sepetim" />
+    <item
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Item" />
+</menu>

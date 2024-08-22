@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragmentEmpty">
+
+    <fragment
+        android:id="@+id/kidsHomePageFragment"
+        android:name="com.example.mydefactocloneprojectt.fragments.KidsHomePageFragment"
+        android:label="fragment_kids_home_page"
+        tools:layout="@layout/fragment_kids_home_page" />
+    <fragment
+        android:id="@+id/productShopFragment"
+        android:name="com.example.mydefactocloneprojectt.fragments.ProductShopFragment"
+        android:label="fragment_product_shop"
+        tools:layout="@layout/fragment_product_shop" >
+        <argument
+            android:name="category"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="ETisort" />
+        <argument
+            android:name="gender"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="Erkek" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEmpty"
+        android:name="com.example.mydefactocloneprojectt.fragments.FragmentEmpty"
+        android:label="fragment_empty"
+        tools:layout="@layout/fragment_empty" >
+        <action
+            android:id="@+id/emptyToproduct"
+            app:destination="@id/productShopFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/manHomePageFragment"
+        android:name="com.example.mydefactocloneprojectt.fragments.ManHomePageFragment"
+        android:label="fragment_man_home_page"
+        tools:layout="@layout/fragment_man_home_page" />
+    <fragment
+        android:id="@+id/categoriesPageFragment"
+        android:name="com.example.mydefactocloneprojectt.fragments.CategoriesPageFragment"
+        android:label="fragment_categories_page"
+        tools:layout="@layout/fragment_categories_page" >
+        <action
+            android:id="@+id/categoriesToProduct"
+            app:destination="@id/productShopFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/womenHomePageFragment"
+        android:name="com.example.mydefactocloneprojectt.fragments.WomenHomePageFragment"
+        android:label="fragment_women_home_page"
+        tools:layout="@layout/fragment_women_home_page" />
+    <fragment
+        android:id="@+id/shopCartFragment2"
+        android:name="com.example.mydefactocloneprojectt.fragments.ShopCartFragment"
+        android:label="fragment_shop_cart"
+        tools:layout="@layout/fragment_shop_cart" />
+</navigation>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "47127230691",
+    "firebase_url": "https://magzauygulamasi-default-rtdb.firebaseio.com",
+    "project_id": "magzauygulamasi",
+    "storage_bucket": "magzauygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47127230691:android:55227966fe56c676202dd6",
+        "android_client_info": {
+          "package_name": "com.example.defactocloneproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHLipMhCa5dhqKWcP5v9KAgWxzqQv5-Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47127230691:android:ca9142aa540f9a29202dd6",
+        "android_client_info": {
+          "package_name": "com.example.magzauygulamasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHLipMhCa5dhqKWcP5v9KAgWxzqQv5-Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47127230691:android:7e72c61e4e281ec0202dd6",
+        "android_client_info": {
+          "package_name": "com.example.mydefactocloneprojectt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHLipMhCa5dhqKWcP5v9KAgWxzqQv5-Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
